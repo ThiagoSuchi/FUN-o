@@ -17,7 +17,7 @@ else if(distanciaGatoA == distanciaGatoB){
     console.log('Mouse c');
    
 }
-
+//kadk
 
 /* ESTA È A FORA EM FUNÇÃO*/
 
