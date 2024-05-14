@@ -8,4 +8,4 @@ notas.forEach(function(nota){//ForEach é uma ação que permite executar uma fu
 
 const media = somaDasNotas / notas.length;
 
-console.log(`A média das notas é ${media}`);
+console.log(`A média das notas é ${media.toFixed(0)}`);
