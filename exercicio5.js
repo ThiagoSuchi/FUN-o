@@ -1,20 +1,11 @@
-let leftDiagonal = 0;
-let rigthDiagonal = 0;
-
-arr =[
-    [11,2,4,],
-     [4,5,6,], 
-     [10,8,-12]
-    ]
-
- for( let index = 0; index < arr.length; index++){
-   leftDiagonal += arr[index][index];
-   rigthDiagonal += arr[index][arr.length - 1 - index];
-  }
-let soma = leftDiagonal + rigthDiagonal;
-  
-console.log(leftDiagonal);
-console.log(rigthDiagonal);
-console.log(`O total será = ${soma}`);
+// 01 - Escreva um código que utilize o loop for/of para iterar e imprimir cada elemento de um array.
 
 
+function imprimeElementos(arr) {
+    for (let elemento of arr) {
+        console.log(elemento); 
+    }
+}
+
+const meuArray = ['Amarelo', 'Roxo', 'Azul', 'Branco'];
+imprimeElementos(meuArray);

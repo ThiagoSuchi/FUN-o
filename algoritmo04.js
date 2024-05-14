@@ -1,5 +1,6 @@
 const alunos = ['João', 'Juliana', 'Ana', 'Caio', 'Lara'];
 const medias = [10, 6, 8.5, 8, 7.5];
+
 const lista = [alunos, medias];
 
 function exibaNomeENota(aluno) {

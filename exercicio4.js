@@ -1,22 +1,20 @@
-n = 8;
+let leftDiagonal = 0;
+let rigthDiagonal = 0;
 
-let simble = '#';
-let inputLine = '';
-let inputPosition = n - 1;
+arr =[
+    [11,2,4,],
+     [4,5,6,], 
+     [10,8,-12]
+    ]
 
-  for( let LineIndex = 0; LineIndex < n ; LineIndex++){  //Este for está andando por linhas//
-    for( let columIndex = 0; columIndex < n ; columIndex++){  // Este for está andando por colunas//
-        if(columIndex < inputPosition){
-          inputLine += ' ';
-        }
-        else{
-          inputLine += simble ;
-        }
-      }
-      console.log(inputLine);
-      inputLine = '';
-      inputPosition -= 1;
-      
-}
+ for( let index = 0; index < arr.length; index++){
+   leftDiagonal += arr[index][index];
+   rigthDiagonal += arr[index][arr.length - 1 - index];
+  }
+let soma = leftDiagonal + rigthDiagonal;
+  
+console.log(leftDiagonal);
+console.log(rigthDiagonal);
+console.log(`O total será = ${soma}`);
 
 

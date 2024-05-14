@@ -19,7 +19,7 @@ else if(distanciaGatoA == distanciaGatoB){
 }
 
 
-/* ESTA È A FORA EM FUNÇÃO*/
+/* ESTA È A FORMA EM FUNÇÃO*/
 
 //     }function catAndMouse(x, y, z) {
 
