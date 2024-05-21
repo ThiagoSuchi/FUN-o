@@ -12,7 +12,7 @@ const notasAtualizadass = notass.map(function (nota) {
 })
 console.log(notasAtualizadass);
 
-//-OU TAMBEM FUNCIONA NESSE FORMATO >> (ARROW-FUNCTION)----------------------------------
+//-OU TAMBEM FUNCIONA NESSE FORMATO >> (ARROW-FUNCTION)--------------------------------------------------------------------------------------
 
 const notasss = [10, 20, 30, 40];
 

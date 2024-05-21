@@ -7,7 +7,7 @@ arr =[
      [10,8,-12]
     ]
 
- for( let index = 0; index < arr.length; index++){
+ for( let index of arr){
    leftDiagonal += arr[index][index];
    rigthDiagonal += arr[index][arr.length - 1 - index];
   }
@@ -16,5 +16,6 @@ let soma = leftDiagonal + rigthDiagonal;
 console.log(leftDiagonal);
 console.log(rigthDiagonal);
 console.log(`O total será = ${soma}`);
+
 
 
