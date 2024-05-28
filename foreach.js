@@ -4,9 +4,10 @@ const notas = [10, 3, 44, 4.5, 10];
 
 let somaDasNotas = 0
 
-notas.forEach(function (nota) {
+notas.forEach((nota) =>{
     somaDasNotas += nota;
-})
+   })
+   console.log(somaDasNotas);
 
 nome.forEach((item, index, array) => {// ESSA É A ORDEM E OS PARAMETROS DE UM FOREACH 
    console.log(index, item, array);

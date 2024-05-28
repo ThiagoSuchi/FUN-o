@@ -1,22 +1,13 @@
-n = 8;
+// 05 - Crie um programa que utilize um laço for para percorrer uma array const numeros = [3, 8, 12, 5, 6, 10, 7, 2, 9, 14] e exibir no console apenas os números pares contidos nesse array.
 
-let simble = '#';
-let inputLine = '';
-let inputPosition = n - 1;
 
-  for( let LineIndex = 0; LineIndex < n ; LineIndex++){  //Este for está andando por linhas//
-    for( let columIndex = 0; columIndex < n ; columIndex++){  // Este for está andando por colunas//
-        if(columIndex < inputPosition){
-          inputLine += ' ';
-        }
-        else{
-          inputLine += simble ;
-        }
-      }
-      console.log(inputLine);
-      inputLine = '';
-      inputPosition -= 1;
-      
+
+const numeros = [3, 8, 12, 5, 6, 10, 7, 2, 9, 14];
+console.log(`Números pares do array: ${numeros} `);
+
+for (let i = 0; i < numeros.length; i++) {
+    if(numeros[i] % 2 == 0){
+        console.log(numeros[i]);
+    }
+
 }
-
-
