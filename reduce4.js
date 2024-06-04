@@ -35,7 +35,7 @@ console.log(`--> ${vendass}`);
 // =========================================================================================================================== //
 
 // ESTÁ É A FORMA MAIS SIMPLES DE SE IMPRIMIR OS VALORES DE VENDAS:
-const vendasSs = dadosVendas.reduce((acc, item) =>{
+const vendasSs = dadosVendas.reduce((_, item) =>{
     console.log(`-`+` `+ item.vendas);
 }, 0)
 

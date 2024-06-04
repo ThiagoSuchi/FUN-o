@@ -1,7 +1,7 @@
 let elementos = [11,22,33,44,55,
                  66,77,88,99,111];
 let soma = 0;
-let maior = Math.max(...elementos); // ...elementos irá desestruturar o array para executar oque se pedi
+let maior = Math.max(...elementos); // ...elementos irá desestruturar o array para executar oque se pede
 let menor = Math.min(...elementos);
 
 for(let index = 0; index < elementos.length; index++){
