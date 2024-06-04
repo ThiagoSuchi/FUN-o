@@ -13,8 +13,8 @@ for(let index = 0; index < a.length; index++){
  }
  return[Alice, Bob];
 }
-
 console.log(compareTriplets([17, 28, 30], [99, 16, 8]));
+
 
 //ESTÁ É FORMA SEM ESTAR EM FUNÇÃO!//
 
