@@ -1,3 +1,6 @@
+
+// É importante ressaltar que tanto o map quanto o filter e o reduce criam novas instancias do array. Os arrays originais continuam inalterados.
+
 const notas = [10, 2, 3, 40];
 
 const notasAtualizadas = notas.map((nota) => nota + 1 >= 10 ? 10 : nota + 1 );

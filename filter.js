@@ -1,6 +1,8 @@
 // --- O MÉTODO FILTER() EM JAVASCRIPT É COMO UMA PENEIRA PARA UM ARRAY. ELE PEGA UM ARRAY CHEIO DE COISAS (COMO NÚMEROS, PALAVRAS, OBJETOS) E PASSA POR CADA UM DELES, VERIFICANDO SE ELES SE ENCAIXAM EM UMA REGRA QUE VOCÊ DEFINE. SE UM ELEMENTO PASSA NA REGRA (OU SEJA, A FUNÇÃO DE CALLBACK QUE VOCÊ ESCREVEU RETORNA TRUE PARA ESSE ELEMENTO), ELE É COLOCADO EM UM NOVO ARRAY. NO FINAL, VOCÊ TEM UM NOVO ARRAY APENAS COM OS ELEMENTOS QUE PASSARAM NO TESTE DA REGRA. --- //
 
-// // =========================== ALUNO REPROVADO ==================================================== //
+// É importante ressaltar que tanto o map quanto o filter e o reduce criam novas instancias do array. Os arrays originais continuam inalterados.
+
+// // =========================== ALUNO REPROVADO ================================================== //
 
 const alunos = ['Ana', 'Marcos', 'Maria', 'Mauro'];
 const medias = [10, 4.5, 8, 9.5];
