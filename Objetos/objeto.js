@@ -13,7 +13,9 @@ let pessoa = {// objeto
         }
     }
 }
+
 // PARA REATRIBUIR UM VALOR DA PROPRIEDADE, DECLARE NOME DO OBJETO PONTO E A PROPRIEDADE(pessoa.propriedade) QUE TERÁ QUE MUDAR E ATRIBUA UM OUTRO VALOR EXEMPLO:
+
 pessoa.nome = "Thiago";
 pessoa.pets[0] = "Coelho";
 
