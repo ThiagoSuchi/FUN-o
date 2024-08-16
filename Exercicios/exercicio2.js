@@ -1,4 +1,4 @@
-n = 8;
+let n = 8;
 
 let simble = '#';
 let inputLine = '';

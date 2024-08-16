@@ -17,14 +17,14 @@ console.log(media.toFixed(1));
 // let soma = 0;
 
 // for(index = 0; index < notas.length; index++){
-//     soma += notas[index];
+//     soma += notas[index]; 
 //     media = soma / notas.length;
 // }
 
 // console.log(media);
 
 
-// // NA FORMA DE ARRAYIO:
+// // NA FORMA DE ARRAY:
 
 // let notas = [10,6,8,7];
 
